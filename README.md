@@ -13,4 +13,8 @@ O código relacionado a este processo encontra-se sob o nome 'ATRASO_METODOS_VER
 ### Quais fatores estão associados ao atraso?
 #### Para responder isso precisamos saber quais as característas associadas as obras atrasadas. Além disso, quais características as obras atrasdas dispõe que as obras concluídas no tempo correto no apresetam.
 #### A localização espacial e temporal das obras
-![image](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/OBRAS_ATRASADO_POR_UF.png)
+![ATRASOS_UF](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/OBRAS_ATRASADO_POR_UF.png)
+
+Embora possamos observar que algmas unidades da federação tem um número de obras atradas maior que a média. Porém, isto pode está relacionado a quantidade de obras que há no Estado. Se um estado tem mais obras que a média nacional, é plausível esperar que haja mais obras atrasadas nesse estado.
+
+![ATRADOS_UF_REL](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/OBRAS_ATRASADO_REL_POR_UF.png)
