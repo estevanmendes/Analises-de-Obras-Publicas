@@ -11,7 +11,7 @@ Diante dos dados disponibilizados sobre os convênios pela plataforma +brazil fo
 O código relacionado a este processo encontra-se sob o nome 'ATRASO_METODOS_VERIFICACAO'. Os dois métodos revelaram respostas comptíveis, isto é, identificaram o mesmo conjunto de convenios que atrasaram.
 
 ### Quais fatores estão associados ao atraso?
-#### Para responder isso precisamos saber quais as característas associadas as obras atrasadas. Além disso, quais características as obras atrasdas dispõe que as obras concluídas no tempo correto não apresetam.
+#### Para responder precisamos saber quais as característas associadas as obras atrasadas. Além disso, quais características as obras atrasdas dispõe que as obras concluídas no tempo correto não apresetam.
 #### A localização espacial e temporal
 ![ATRASOS_UF](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/OBRAS_ATRASADO_POR_UF.png)
 
@@ -43,4 +43,13 @@ Após algumas pesquisas sobre o tema, tanto na impressa quanto na literatura aca
 Além disso, procurou-se correlação entre os valores de contrapartida e o valor do convenio com o número de dias de atraso.
 
 ![CORR_VALORES_DIAS](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/CORRELACAO_VALOR_DIAS_ATRASO.png)
-####
+
+#### A Natureza da obra e o orgão responsável
+Objetivando observar se há determinados tipos de obras que tendem a ter mais atraso, buscamos nos dados disponibilizados relacionar o orgão executor da obra com os atrasos.
+
+![ORGAO_SUP_PIE_ATRASO](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/RELA%C3%87%C3%82O_ORGAO_EXECUTOR_OBRAS_ATRASADAS_PIE.png)
+
+Por meio da análise desse gráfico podemos observar uma predileço ao atraso de alguns orgão executores dos convênios.
+
+
+#### O plano de Trabalho e o projeto da obra
