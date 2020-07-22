@@ -47,9 +47,11 @@ Além disso, procurou-se correlação entre os valores de contrapartida e o valo
 #### A Natureza da obra e o orgão responsável
 Objetivando observar se há determinados tipos de obras que tendem a ter mais atraso, buscamos nos dados disponibilizados relacionar o orgão executor da obra com os atrasos.
 
-![ORGAO_SUP_PIE_ATRASO](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/RELA%C3%87%C3%82O_ORGAO_EXECUTOR_OBRAS_ATRASADAS_PIE.png)
+![ORGAO_SUP_PIE_ATRASO](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/RELA%C3%87%C3%82O_ORGAO_EXECUTOR_OBRAS_ATRASADAS_PIE.png)![ORGAO_SUP_PIE_TODOS](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/RELA%C3%87%C3%82O_ORGAO_EXECUTOR_OBRAS_TODAS_PIE.png)
 
-Por meio da análise desse gráfico podemos observar uma predileço ao atraso de alguns orgão executores dos convênios.
+Por meio da análise desses gráficos podemos observar uma predileço ao atraso de alguns orgão executores dos convênios.
+
+![DIAS_ATRASO_ORGAO_BOX](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/DIAS_DE_ATRASO_ORGAO_EXECUTOR_BOXPLOT.png)
 
 
 #### O plano de Trabalho e o projeto da obra
