@@ -65,5 +65,5 @@ Percebe-se que o número de concórcios grandes(>250 empresas) pertencem majorit
 
 ![MEDIA_TEMPO_METAS](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/MED_TEMPO_METAS.png)
 
-Além do número reduzido de metas, o tempo médio entre as metas tende a maior nas obras que atrasaram.
+Além do número reduzido de metas, o tempo médio entre as metas tende a ser maior nas obras que atrasaram.
 
