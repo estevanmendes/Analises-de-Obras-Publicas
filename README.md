@@ -49,7 +49,7 @@ Objetivando observar se há determinados tipos de obras que tendem a ter mais at
 
 ![ORGAO_SUP_PIE_ATRASO](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/RELA%C3%87%C3%82O_ORGAO_EXECUTOR_OBRAS_ATRASADAS_PIE.png)![ORGAO_SUP_PIE_TODOS](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/RELA%C3%87%C3%82O_ORGAO_EXECUTOR_OBRAS_TODAS_PIE.png)
 
-Por meio da análise desses gráficos podemos observar uma predileço ao atraso de alguns orgão executores dos convênios.
+Por meio da análise desses gráficos podemos observar uma predileço ao atraso de alguns orgão executores dos convênios. As informaçoes associadas atempo de atraso de cada orgão executor pode ser observada abaixo.
 
 ![DIAS_ATRASO_ORGAO_BOX](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/DIAS_DE_ATRASO_ORGAO_EXECUTOR_BOXPLOT.png)
 
