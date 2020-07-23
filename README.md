@@ -53,3 +53,17 @@ Por meio da análise desses gráficos podemos observar uma predileço ao atraso 
 
 
 #### O plano de Trabalho e o projeto da obra
+Para que fosse exposto algum problema associado as obras atrasadas, verificou-se caractersticas concernetes ao projeto e plano de trabalho das obras.
+
+![NUM_EMPRESAS_CONSORCIO](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/NUM_EMPRESAS_CONS.png)
+
+Percebe-se que o número de concórcios grandes(>250 empresas) pertencem majoritariamente as obras que não atrasaram. 
+
+![QTD_METAS](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/QTD_METAS.png)
+
+É notório pela avaliação do gráfico acima que as obras que atrasam tendem a ter poucas metas no seu plano de trabalho.
+
+![MEDIA_TEMPO_METAS](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/MED_TEMPO_METAS.png)
+
+Além do número reduzido de metas, o tempo médio entre as metas tende a maior nas obras que atrasaram.
+
