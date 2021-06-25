@@ -1,5 +1,16 @@
+## O desafio
+
+O desafio consiste em realizar uma análise exploratória sobre obras públicas paralisadas, a partir de dados públicos estruturados. Esse desafio é inspirado no projeto [Bússola _ Baía de Guanabara](http://www.mprj.mp.br/inova/baiaguanabara) (B_Guanabara), no qual o Inova_MPRJ trabalhou em parceria com os órgãos da área ambiental do MPRJ para monitorar o andamento das obras de despoluição da Baía de Guanabara.
+
+Na maioria dos projetos que apoiamos, começamos sabendo muito pouco do assunto com o qual vamos trabalhar, e em poucas semanas precisamos aprender o suficiente para apontar o caminho de um protótipo robusto de solução. Neste desafio, queremos saber se você é capaz de fazer esse mergulho em um tema novo e, em poucos dias, propor visões pouco óbvias que orientem uma atuação baseada em dados para resolver problemas públicos.
+
+No B_Guanabara, o desafio tem sido identificar quais das obras previstas tem mais chances de atrasar - e abrir os dados necessários para isso. Aqui, queremos que você faça o mesmo a partir de dados já abertos, relativos às [obras com recursos públicos do Governo Federal](http://plataformamaisbrasil.gov.br/sobre-a-plataforma). Não esperamos que você entregue um modelo preditivo completo, mas sim que seja capaz de manipular os dados, propor cruzamentos e indicadores e documentar o processo de pesquisa e desenvolvimento da solução.
+
+
+
+
 # Inova_MPRJ-2020_ESTAGIO
-ANALISE DE DADOS PÚBLICOS SOBRE OBRAS GOVERNAMENTAIS A FIM DE GERAR CONCLUSÕES SOBRE A CERCA DOS ATRASOS
+Análise de dados públicos sobre obras governamentais a fim de gerar conclusões sobre os atrasos
 
 ### Quais obras públicas atrasam?
 Diante dos dados disponibilizados sobre os convênios pela plataforma +brazil foram utilizados duas etapas para responder esta pergunta. 
@@ -7,11 +18,11 @@ Diante dos dados disponibilizados sobre os convênios pela plataforma +brazil fo
    A primeira etapa foi descobrir quais dos convênios se tratavam de obras. Visto que a plaforma disponibiliza dados sobre todos os convẽnios. A segunda etapa se baseou nas informações da vigência dos contratos, visto que a data fim dos contratos é alterada diante de um atraso. Logo, as obras atrasadas (ou que atrasaram, embora tenha sido finalizadas) são as que a DATA_FIM_VIGENC_CONV>DATA_FIM_VIGENC_ORIGINAL_CONV. A planilha disponibilizada pelo TCU com as obras paralisadas, seria de grande interesse para validar o método aplicado na seleção das obras atrasadas. Pois, pode-se pensar que as obras paralisadas são um subconjunto das obras atrasadas, porém não havia informação suficiente na planilha para a verificação.  
 
 ### Quais fatores estão associados ao atraso?
-#### Para responder precisamos saber quais as característas associadas as obras atrasadas. Além disso, quais características as obras atrasdas dispõe que as obras concluídas no tempo correto não apresetam.
+#### Para responder precisamos saber quais as característas associadas as obras atrasadas. Além disso, quais características as obras atrasadas dispõem, e as obras concluídas no tempo correto não dispõem.
 #### A localização espacial e temporal
 ![ATRASOS_UF](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/OBRAS_ATRASADO_POR_UF.png)
 
-Embora possamos observar que algumas unidades da federação tem um número de obras atradas maior que a média. Isso pode está relacionado a quantidade de obras que há no Estado. Se um estado tem mais obras que a média nacional, é plausível esperar que haja mais obras atrasadas nesse estado.
+Embora possamos observar que algumas unidades da federação tem um número de obras atradas maior que a média.Esta característica pode estar relacionado à quantidade de obras que há no Estado. Se um estado tem mais obras que a média nacional, é plausível esperar que haja mais obras atrasadas nesse estado.
 
 ![ATRASOS_UF_REL](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/OBRAS_ATRASADO_REL_POR_UF.png)
 
@@ -19,13 +30,13 @@ Podemos observar qualitativamente que dois estados (RS,SC) apresentam uma taxa d
 
 ![ATRASOS_ANO_REL](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/OBRAS_ATRASADO_REL_POR_ANO.png)
 
-O decréssimo significativo no número de obras atrasadas pode ser atrelado ao fato de não ter havido tempo o suficiente para que as obras iniciados recentemente atrasem. Isso é corroborado pela distribuição dos dias de atraso.
+O decréssimo significativo no número de obras atrasadas pode ser atrelado ao fato de não ter havido tempo suficiente para que as obras iniciados recentemente atrasem. Este hipótese é corroborada pela distribuição dos dias de atraso.
 
-Nesse contexto de temporalidade, é interessante analisarmos a distruiço do tempo de atraso das obras. 
+Nesse contexto de temporalidade, é interessante analisarmos a distribuição do tempo de atraso das obras. 
 
 ![HIST_DIAS_ATRASO](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/HISTOGRAMA_DIAS_ATRASADOS.png)
 
-O atraso em dias absolutos nos trás diversas informaçes. Todavia, o atraso de N dias em uma obra de duraço de K>>N, é diferente de um atraso N onde a duração da obra é K=N. Sendo assim, se faz necessário observar a distribuição dos atraso relativos a duração da obra.
+O atraso em dias absolutos nos traz diversas informações. Todavia, o atraso de N dias em uma obra de duração K>>N, é diferente de um atraso N onde a duração da obra é K=N. Sendo assim, se faz necessário observar a distribuição dos atraso relativos à duração da obra.
 
 ![HIST_DIAS_ATRASO_REL](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/HISTOGRAMA_DIAS_ATRASADO_REL.png)
 
