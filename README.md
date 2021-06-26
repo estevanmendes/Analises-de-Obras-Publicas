@@ -30,7 +30,7 @@ Podemos observar qualitativamente que dois estados (RS,SC) apresentam uma taxa d
 
 ![ATRASOS_ANO_REL](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/OBRAS_ATRASADO_REL_POR_ANO.png)
 
-O decréssimo significativo no número de obras atrasadas pode ser atrelado ao fato de não ter havido tempo suficiente para que as obras iniciados recentemente atrasem. Este hipótese é corroborada pela distribuição dos dias de atraso.
+O decréssimo significativo no número de obras atrasadas pode ser atrelado ao fato de não ter havido tempo suficiente para que as obras iniciados recentemente atrasem. Esta hipótese é corroborada pela distribuição dos dias de atraso.
 
 Nesse contexto de temporalidade, é interessante analisarmos a distribuição do tempo de atraso das obras. 
 
@@ -41,7 +41,7 @@ O atraso em dias absolutos nos traz diversas informações. Todavia, o atraso de
 ![HIST_DIAS_ATRASO_REL](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/HISTOGRAMA_DIAS_ATRASADO_REL.png)
 
 #### Valores do convênio e da Contrapartida.
-Após algumas pesquisas sobre o tema, tanto na impressa quanto na literatura acadêmica. Observou-se que havia-se a hipótese de que obras ficam paradas devido ao valor da contrapartida requerida. E além disso, buscou-se encontrar uma relação entre o número de obras atrasadas e o valor de contrato.
+Após algumas pesquisas sobre o tema, tanto na impressa quanto na literatura acadêmica. Foi possível detectar que há a hipótese de que obras ficam paradas devido ao valor da contrapartida requerida. E além disso, buscou-se encontrar uma relação entre o número de obras atrasadas e o valor de contrato.
 
 ![OBRAS_VALORES_CONV](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/HIST_OBRAS_TODOS_VALORES_CONV.png)
 
@@ -49,7 +49,7 @@ Detecta-se qualitativamente por meio dessa distribuiço que a média do valor da
 
 ![OBRAS_CONTRAPARTIDA](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/HIST_CONTRAPARTIDA_CONV.png)
 
-Além disso, procurou-se correlação entre os valores de contrapartida e o valor do convenio com o número de dias de atraso. A correlação entre o valor do contrato e a contrapartida deve ser ignorada, pois estão relacionados pela legislação. A contrapartida é uma fração do valor do contrato que depende de algumas caractersticas do ente resposável pela execução do convênio.
+Além disso, procurou-se correlação entre os valores de contrapartida e o valor do convênio com o número de dias de atraso. A correlação entre o valor do contrato e a contrapartida deve ser ignorada, pois estão relacionados pela legislação. A contrapartida é uma fração do valor do contrato que depende de algumas caractersticas do ente resposável pela execução do convênio.
 
 ![CORR_VALORES_DIAS](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/CORRELACAO_VALOR_DIAS_ATRASO.png)
 
@@ -58,13 +58,13 @@ Objetivando observar se há determinados tipos de obras que tendem a ter mais at
 
 ![ORGAO_SUP_PIE_ATRASO](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/RELA%C3%87%C3%82O_ORGAO_EXECUTOR_OBRAS_ATRASADAS_PIE.png)![ORGAO_SUP_PIE_TODOS](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/RELA%C3%87%C3%82O_ORGAO_EXECUTOR_OBRAS_TODAS_PIE.png)
 
-Por meio da análise desses gráficos podemos observar uma predileço ao atraso de alguns orgão executores dos convênios. As informaçoes associadas atempo de atraso de cada orgão executor pode ser observadas abaixo.
+Por meio da análise desses gráficos podemos observar uma predileção ao atraso de alguns orgões executores dos convênios. As informaçoes associadas ao tempo de atraso de cada orgão executor pode ser observadas abaixo.
 
 ![DIAS_ATRASO_ORGAO_BOX](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/DIAS_DE_ATRASO_ORGAO_EXECUTOR_BOXPLOT.png)
 
 
 #### O plano de Trabalho e o projeto da obra
-Para que fosse exposto algum problema associado as obras atrasadas, verificou-se caractersticas concernetes ao projeto e plano de trabalho das obras.
+Para que fosse exposto algum problema associado às obras atrasadas, verificou-se características concernetes ao projeto e ao plano de trabalho das obras.
 
 ![NUM_EMPRESAS_CONSORCIO](https://github.com/estevanmendes/Inova_MPRJ-2020_ESTAGIO/blob/master/img/NUM_EMPRESAS_CONS.png)
 
